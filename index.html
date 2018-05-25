@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Triangle</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/bootstrap.css" >
+	<link rel="stylesheet" href="css/style.css" >
+	<link rel="stylesheet" href="css/font-awesome.css" >
+	
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js" ></script>
+
+</head>
+<body>
+  <nav class="navbar  navbar-default">
+     <div class="container-fluid">
+     	<div class="navbar-header">
+     		<a href="#" class="navbar-brand navbar-a" ><img src="images/logo3.png" style="margin-top: -10px;"></a>
+     	</div>
+     	<div class="nav navbar-nav form-inline " style="padding: 10px;">
+     		<div class="input-group">
+     			<input type="text" class="form-control">
+     			<div class="input-group-btn">
+     				<button class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+     			</div>
+     		</div>
+     	</div>
+     
+     	<div class="col-md-offset-5">
+     	     	<ul class="nav navbar-nav ">
+	     		<li><a href="#" class="navbar-a " style=" color: #569485;"  >HOME</a></li>
+	     		<li><a href="#" class="navbar-a" style="padding-left: 40px; color: #569485;">CATEGORIES</a></li>
+
+     	    </ul>
+     		
+     	</div>
+     
+     	<div class="col-md-offset-9" >
+     		<ul class="nav navbar-nav ">
+     		   <li><a href="#"><img src="images/logo.png" style="height: 40px; width: 40px; margin-top: -10px;" ></a></li>
+     		   <li><a href="#"><i class="glyphicon glyphicon-cog " style="font-size: 25px; color: #569485; padding-left: 20px;"></i></a></li>
+     		   <li><a href="#"><i class="glyphicon glyphicon-log-out" style="font-size: 25px; color: #569485; padding-left: 20px;"></i></a></li>
+     			
+     		</ul>
+     	</div>
+     
+     
+
+
+     </div>
+  	
+  </nav>
+  <div class="row body-main">
+     <div class="col-md-12">
+     	<div class="col-md-3">
+     	   <div class="panel-group col-md-10" id="pa1">
+     	   	   <div class="panel panel-default" >
+     	   	      <div class="panel-heading">
+     	   	         <h4 class="panel-title">
+     	   	         	<a href="#cal1" data-toggle="collapse" data-parent="#pa1" style="color:#569485; "><span><i class="glyphicon glyphicon-menu-right"></i></span> Categories</a>
+     	   	         </h4>
+     	   	      	  
+     	   	      </div>
+     	   	      <div class="collapse panel-collapse" id="cal1">
+     	   	      	  <div class="panel-body">Your categories</div>
+     	   	      </div>
+     	   	   	
+     	   	   </div>
+     	   	   <div class="panel panel-default" >
+     	   	      <div class="panel-heading">
+     	   	         <h4 class="panel-title">
+     	   	         	<a href="#cal2" data-toggle="collapse" data-parent="#pa1" style="color:#569485; "><span><i class="glyphicon glyphicon-menu-right"></i></span> Authorities</a>
+     	   	         </h4>
+     	   	      	  
+     	   	      </div>
+     	   	      <div class="collapse panel-collapse" id="cal2">
+     	   	      	  <div class="panel-body">Your Authorities</div>
+     	   	      </div>
+     	   	   	
+     	   	   </div>
+     	   	      <div class="panel panel-default">
+     	   	      <div class="panel-heading">
+     	   	         <h4 class="panel-title">
+     	   	         	<a href="#cal3" data-toggle="collapse" data-parent="#pa1" style="color:#569485; "><span><i class="glyphicon glyphicon-menu-right"></i></span> Explore</a>
+     	   	         </h4>
+     	   	      	  
+     	   	      </div>
+     	   	      <div class="collapse panel-collapse" id="cal3">
+     	   	      	  <div class="panel-body">Explore caterogries</div>
+     	   	      </div>
+     	   	   	
+     	   	   </div>
+     	   	      <div class="panel panel-default">
+     	   	      <div class="panel-heading">
+     	   	         <h4 class="panel-title">
+     	   	         	<a href="#cal4" data-toggle="collapse" data-parent="#pa1" style="color:#569485; "><span><i class="glyphicon glyphicon-menu-right"></i></span> FAQ</a>
+     	   	         </h4>
+     	   	      	  
+     	   	      </div>
+     	   	      <div class="collapse panel-collapse" id="cal4">
+     	   	      	  <div class="panel-body">Your FAQ</div>
+     	   	      </div>
+     	   	   	
+     	   	   </div>
+     	   </div>
+     	  
+     		
+     	</div>
+        <div class="col-md-6" style="background-color: white;">
+          <!-- Status Box Start-->
+           <div >
+           	   <div class="row"  >
+           	   	   <div class="col-md-12" >
+           	   	   	   <form action="#" method="post" role="form" enctype="multipart/form-data" class="facebook-share-box" style=" box-shadow: 5px 5px 20px #888888;" >
+           	   	   	       <div class="share" style="border-radius: 5px;" >
+           	   	   	       	   <div class="panel panel-default" >
+           	   	   	       	      <div class="panel-heading"  >
+           	   	   	       	            <ul class="post-types ">
+											<li class="post-type">
+												<a class="status" title="" href="#"><i class="glyphicon glyphicon-pencil"></i> Post a Problem</a>
+											</li>
+											<li class="post-type">
+												<span style="border-left:2px solid  gray; "></span>
+											</li>
+											<li class="post-type">
+												<a class="photos" href="#"><i class="glyphicon glyphicon-facetime-video"></i> Go to Live</a>
+											</li>
+									  </ul>
+           	   	   	       	      	
+           	   	   	       	      </div>
+           	   	   	       	      <div class="panel-body">
+           	   	   	       	         <textarea name="message" id="status_message" class="form-control message" placeholder="Types Your Problems" cols="40" rows="4" style="height: 62px; overflow: hidden;"></textarea>
+
+           	   	   	       	      	
+           	   	   	       	      </div>
+           	   	   	       	      <div class="panel-footer">
+           	   	   	       	          <div class="row">
+           	   	   	       	          	  <div class="col-md-7">
+           	   	   	       	          	  	   <div class="form-group">
+           	   	   	       	          	  	   	   <div class="button-group">
+           	   	   	       	          	  	   	   	   <button type="button" class="btn btn-default" style="color: #569485; "><i class="glyphicon glyphicon-picture"></i>  Photo/Video</button>
+           	   	   	       	          	  	   	   </div>
+           	   	   	       	          	  	   </div>
+           	   	   	       	          	  </div>
+           	   	   	       	          	  <div class="col-md-4 " >
+           	   	   	       	          	  	   <div class="form-group">
+           	   	   	       	          	  	   	   <input type="submit" name="submit" value="Post" class="btn btn-primary col-md-6 col-md-offset-9" style="background:#569485; border-color: #CCCCCC; ">
+           	   	   	       	          	  	   </div>
+           	   	   	       	          	  </div> 
+           	   	   	       	          </div>
+           	   	   	       	      	
+           	   	   	       	      </div>
+
+           	   	   	       	   	
+           	   	   	       	   </div>
+           	   	   	       </div>
+           	   	   	   	
+           	   	   	   </form>
+           	   	   </div>
+           	   </div>
+           </div>
+            <!-- Status Box End-->
+            <!--Comment Bar Start-->
+            <div class="row">
+               <div class="col-md-12">
+                  <form action="#" method="post" role="form" enctype="multipart/form-data" class="facebook-share-box" style=" box-shadow: 5px 5px 20px #888888;" >
+                    <div class="share">
+                    	<div class="panel panel-default">
+                    	    	   <div class="panel-heading" style="border-bottom: none; background: white; height: 50px;">
+                    	    	        <div class="row">
+                    	    	       	   <div class="col-md-12">
+                    	    	       	       <div class="col-md-9">
+                    	    	       	             <div class="col-md-2">
+                    	    	       	   	   	        <a href="#"><img src="images/logo.png" style="height: 50px; width: 50px; "></a>
+                    	    	       	   	         </div>
+		                    	    	       	   	   <div class="col-md-10" > 
+		                    	    	       	   	   	   <a href="#" ><h4>Towfiqul Islam</h4></a>
+		                    	    	       	   	   	   <a href="#"><p style="font-size: 10px;margin-top: -10px; margin-left: 2px;">Mirpur,Dhaka</p> </a>
+		                    	    	       	   	   </div>
+                    	    	       	       	
+                    	    	       	       </div>
+                    	    	       	       <div class="col-md-3 ">
+                    	    	       	            <button class="btn btn-default col-md-offset-9 btn-md" style=" color: white; background: #569485; margin-top: 10px;"><i class="glyphicon glyphicon-list"></i></button>
+                    	    	       	       	  
+                    	    	       	       </div>
+                    	    	       	   	 
+                    	    	       	   </div>
+                    	    	       </div>
+		               	   	    
+		               	   	      </div>
+		               	   	      <div class="panel-body">
+		               	   	       <div>
+		               	   	       	  <p>The road between Mirpur 1 and Mirpur 10 is very important and emergency route for all. </p>
+		               	   	       </div>
+		               	   	       <div>
+		               	   	       	  <img src="images/pic1.png" style="height: 150px; width: 250px; box-shadow: 2px 2px 20px #888888; ">
+		               	   	       </div>
+
+		               	   	   	
+		               	   	   </div>
+		               	   	   <div class="panel panel-footer" style="border: none; background-color: white;">
+                               
+		               	   	   	<div  style="background: #eee; box-shadow: 5px 5px 20px #888888; ">
+		               	   	   	          
+
+		               	   	   	  
+		               	   	   	      <ul class="comments" >
+		               	   	   	         <li><a href="#" style="text-decoration: none; color: #569485;"><i class="fa fa-angle-double-up " style="font-size: 30px;" aria-hidden="true"></i>Support</a></li>
+		               	   	   	         <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 15px;"><i class="glyphicon glyphicon-comment" style="font-size: 25px"></i><span></span> Comments</a></li>
+		               	   	   	          <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 15px;"><i class="fa fa-share-alt-square fa-1x" style="font-size: 30px;" aria-hidden="true"></i><span> </span> Share</a></li>
+
+		               	   	   	      </ul>
+		               	   	   	      <hr style="height:1px;width: 585px; border:none;color:green;background-color:green; margin-top: -15px; margin-left: 16px;" />
+		               	   	   	      <div>
+		               	   	   	      	<div class="row" style="height: 30px;">
+		               	   	   	      		<div class="col-md-12" style="margin-top: -15px;">
+		               	   	   	      			<div class="col-md-4">
+		               	   	   	      						<div class="list-group">
+											      		   <a href="#" >
+											      		   	   <div class="col-md-2" style="padding: 0; margin: 0;"><img src="images/logo.png" style="height: 30px;width: 30px;"></div>
+											      		   	   	<div class="col-md-9">
+											      					<div class="list-group-item-heading">
+											      					    	<h5 class="pull-left">Muhammad Naim Uddin</h5>
+											      						
+
+											      				  </div>
+											      				  
+											      				
+
+											      				</div>
+											      		   </a>
+											      	
+											      		</div>
+		               	   	   	      				 
+		               	   	   	      			</div>
+		               	   	   	      			<div class="col-md-8">
+		               	   	   	      				<input type="text" name="" class="form-control col-md-12">
+		               	   	   	      			</div>
+		               	   	   	      		</div>
+		               	   	   	      	</div>
+		               	   	   	      </div>
+
+		               	   
+		               	   	   	 </div>
+		               	   	   	
+		               	   	   
+
+
+		               	   	   </div>
+                    		
+                    	</div>
+                    </div>
+                  	
+                  </form>	
+               </div>
+            	
+            </div>
+            <!--Commet Bar End-->
+                  <!--Comment Bar Start-->
+            <div class="row">
+               <div class="col-md-12">
+                  <form action="#" method="post" role="form" enctype="multipart/form-data" class="facebook-share-box" style=" box-shadow: 5px 5px 20px #888888;" >
+                    <div class="share">
+                    	<div class="panel panel-default">
+                    	    	   <div class="panel-heading" style="border-bottom: none; background: white; height: 50px;">
+                    	    	        <div class="row">
+                    	    	       	   <div class="col-md-12">
+                    	    	       	       <div class="col-md-9">
+                    	    	       	             <div class="col-md-2">
+                    	    	       	   	   	        <a href="#"><img src="images/logo.png" style="height: 50px; width: 50px; "></a>
+                    	    	       	   	         </div>
+		                    	    	       	   	   <div class="col-md-10" > 
+		                    	    	       	   	   	   <a href="#" ><h4>Towfiqul Islam</h4></a>
+		                    	    	       	   	   	   <a href="#"><p style="font-size: 10px;margin-top: -10px; margin-left: 2px;">Mirpur,Dhaka</p> </a>
+		                    	    	       	   	   </div>
+                    	    	       	       	
+                    	    	       	       </div>
+                    	    	       	       <div class="col-md-3 ">
+                    	    	       	            <button class="btn btn-default col-md-offset-9 btn-md" style=" color: white; background: #569485; margin-top: 10px;"><i class="glyphicon glyphicon-list"></i></button>
+                    	    	       	       	  
+                    	    	       	       </div>
+                    	    	       	   	 
+                    	    	       	   </div>
+                    	    	       </div>
+		               	   	    
+		               	   	      </div>
+		               	   	      <div class="panel-body">
+		               	   	       <div>
+									   <p>A litle description about the pic or post.</p></div>
+		               	   	       <div>
+		               	   	       	  <img src="images/pic2.png" style="height: 150px; width: 250px; box-shadow: 2px 2px 20px #888888; ">
+		               	   	       </div>
+
+		               	   	   	
+		               	   	   </div>
+		               	   	   <div class="panel panel-footer" style="border: none; background-color: white;">
+                               
+		               	   	   	<div  style="background: #eee; box-shadow: 5px 5px 20px #888888; ">
+		               	   	   	          
+
+		               	   	   	  
+		               	   	   	      <ul class="comments" >
+		               	   	   	         <li><a href="#" style="text-decoration: none; color: #569485;"><i class="fa fa-angle-double-up " style="font-size: 30px;" aria-hidden="true"></i>Support</a></li>
+		               	   	   	         <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 15px;"><i class="glyphicon glyphicon-comment" style="font-size: 25px"></i><span></span> Comments</a></li>
+		               	   	   	          <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 15px;"><i class="fa fa-share-alt-square fa-1x" style="font-size: 30px;" aria-hidden="true"></i><span> </span> Share</a></li>
+
+		               	   	   	      </ul>
+		               	   	   	      <hr style="height:1px;width: 585px; border:none;color:green;background-color:green; margin-top: -15px; margin-left: 16px;" />
+		               	   	   	      <div>
+		               	   	   	      	<div class="row" style="height: 30px;">
+		               	   	   	      		<div class="col-md-12" style="margin-top: -15px;">
+		               	   	   	      			<div class="col-md-4">
+		               	   	   	      						<div class="list-group">
+											      		   <a href="#" >
+											      		   	   <div class="col-md-2" style="padding: 0; margin: 0;"><img src="images/logo.png" style="height: 30px;width: 30px;"></div>
+											      		   	   	<div class="col-md-9">
+											      					<div class="list-group-item-heading">
+											      					    	<h5 class="pull-left">Muhammad Naim Uddin</h5>
+											      						
+
+											      				  </div>
+											      				  
+											      				
+
+											      				</div>
+											      		   </a>
+											      	
+											      		</div>
+		               	   	   	      				 
+		               	   	   	      			</div>
+		               	   	   	      			<div class="col-md-8">
+		               	   	   	      				<input type="text" name="" class="form-control col-md-12">
+		               	   	   	      			</div>
+		               	   	   	      		</div>
+		               	   	   	      	</div>
+		               	   	   	      </div>
+
+		               	   
+		               	   	   	 </div>
+		               	   	   	
+		               	   	   
+
+
+		               	   	   </div>
+                    		
+                    	</div>
+                    </div>
+                  	
+                  </form>	
+               </div>
+            	
+            </div>
+            <!--Commet Bar End-->
+                 <!--Comment Bar Start-->
+            <div class="row">
+               <div class="col-md-12">
+                  <form action="#" method="post" role="form" enctype="multipart/form-data" class="facebook-share-box" style=" box-shadow: 5px 5px 20px #888888;" >
+                    <div class="share">
+                    	<div class="panel panel-default">
+                    	    	   <div class="panel-heading" style="border-bottom: none; background: white; height: 50px;">
+                    	    	        <div class="row">
+                    	    	       	   <div class="col-md-12">
+                    	    	       	       <div class="col-md-9">
+                    	    	       	             <div class="col-md-2">
+                    	    	       	   	   	        <a href="#"><img src="images/logo.png" style="height: 50px; width: 50px; "></a>
+                    	    	       	   	         </div>
+		                    	    	       	   	   <div class="col-md-10" > 
+		                    	    	       	   	   	   <a href="#" ><h4>Towfiqul Islam</h4></a>
+		                    	    	       	   	   	   <a href="#"><p style="font-size: 10px;margin-top: -10px; margin-left: 2px;">Mirpur,Dhaka</p> </a>
+		                    	    	       	   	   </div>
+                    	    	       	       	
+                    	    	       	       </div>
+                    	    	       	       <div class="col-md-3 ">
+                    	    	       	            <button class="btn btn-default col-md-offset-9 btn-md" style=" color: white; background: #569485; margin-top: 10px;"><i class="glyphicon glyphicon-list"></i></button>
+                    	    	       	       	  
+                    	    	       	       </div>
+                    	    	       	   	 
+                    	    	       	   </div>
+                    	    	       </div>
+		               	   	    
+		               	   	      </div>
+		               	   	      <div class="panel-body">
+		               	   	       <div>
+									   <p>A litle description about the post.</p>
+								   </div>
+		               	   	       <div>
+		               	   	       	  <img src="images/pic3.png" style="height: 150px; width: 250px; box-shadow: 2px 2px 20px #888888; "> <img src="images/pic4.png" style="height: 150px; width: 250px; box-shadow: 2px 2px 20px #888888; ">
+		               	   	       </div>
+
+		               	   	   	
+		               	   	   </div>
+		               	   	   <div class="panel panel-footer" style="border: none; background-color: white;">
+                               
+		               	   	   	<div  style="background: #eee; box-shadow: 5px 5px 20px #888888; ">
+		               	   	   	          
+
+		               	   	   	  
+		               	   	   	      <ul class="comments" >
+		               	   	   	         <li><a href="#" style="text-decoration: none; color: #569485;"><i class="fa fa-angle-double-up " style="font-size: 30px;" aria-hidden="true"></i>Support</a></li>
+		               	   	   	         <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 15px;"><i class="glyphicon glyphicon-comment" style="font-size: 25px"></i><span></span> Comments</a></li>
+		               	   	   	          <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 15px;"><i class="fa fa-share-alt-square fa-1x" style="font-size: 30px;" aria-hidden="true"></i><span> </span> Share</a></li>
+
+		               	   	   	      </ul>
+		               	   	   	      <hr style="height:1px;width: 585px; border:none;color:green;background-color:green; margin-top: -15px; margin-left: 16px;" />
+		               	   	   	      <div>
+		               	   	   	      	<div class="row" style="height: 30px;">
+		               	   	   	      		<div class="col-md-12" style="margin-top: -15px;">
+		               	   	   	      			<div class="col-md-4">
+		               	   	   	      						<div class="list-group">
+											      		   <a href="#" >
+											      		   	   <div class="col-md-2" style="padding: 0; margin: 0;"><img src="images/logo.png" style="height: 30px;width: 30px;"></div>
+											      		   	   	<div class="col-md-9">
+											      					<div class="list-group-item-heading">
+											      					    	<h5 class="pull-left">Muhammad Naim Uddin</h5>
+											      						
+
+											      				  </div>
+											      				  
+											      				
+
+											      				</div>
+											      		   </a>
+											      	
+											      		</div>
+		               	   	   	      				 
+		               	   	   	      			</div>
+		               	   	   	      			<div class="col-md-8">
+		               	   	   	      				<input type="text" name="" class="form-control col-md-12">
+		               	   	   	      			</div>
+		               	   	   	      		</div>
+		               	   	   	      	</div>
+		               	   	   	      </div>
+
+		               	   
+		               	   	   	 </div>
+		               	   	   	
+		               	   	   
+
+
+		               	   	   </div>
+                    		
+                    	</div>
+                    </div>
+                  	
+                  </form>	
+               </div>
+            	
+            </div>
+            <!--Commet Bar End-->
+
+        </div>
+        <div class="col-md-3">
+        	<div class=" col-md-12" style="background: #539684; height: 40px; color: white; border-radius: 5px;  box-shadow: 2px 2px 10px #888888;">
+        	   <p style="padding-top: 10px;">Top Post</p>
+        		
+        	</div>
+        	<div class="clearfix"></div>
+        	<br>
+
+        	 <div class="row">
+               <div class="col-md-12">
+                  <form action="#" method="post" role="form" enctype="multipart/form-data" class="facebook-share-box" style=" box-shadow: 2px 2px 10px #888888;" >
+                    <div class="share">
+                    	<div class="panel panel-default">
+                    	    	   <div class="panel-heading" style="border-bottom: none; background: white; height: 30px;">
+                    	    	       <div class="row">
+                    	    	       	   <div class="col-md-12">
+                    	    	       	   	   <div class="col-md-2">
+                    	    	       	   	   	   <a href="#"><img src="images/logo.png" style="height: 30px; width: 30px; "></a>
+                    	    	       	   	   </div>
+                    	    	       	   	   <div class="col-md-8" style="margin-top: -2px;">
+                    	    	       	   	   	   <a href="#" h5>Towfiqul Islam</h5></a>
+                    	    	       	   	   	   <a href="#"><p style="font-size: 10px">Mirpur,Dhaka</p> </a>
+                    	    	       	   	   </div>
+                    	    	       	   </div>
+                    	    	       </div>
+
+		               	  
+		               	   	      </div>
+		               	   	      <div class="panel-body">
+		               	   	       <div>
+		               	   	       	  <p>The road between Mirpur 1 and Mirpur 10 is very important and emergency route for all.</p>
+		               	   	       </div>
+		               	   	       <div>
+		               	   	       	  <img src="images/pic1.png" style="height: 100px; width: 150px; box-shadow: 2px 2px 20px #888888; ">
+		               	   	       </div>
+
+		               	   	   	
+		               	   	   </div>
+		               	   	   <div class="panel panel-footer" style="border: none; background-color: white;">
+                               
+			               	   	   	<div  style="background: #eee; box-shadow: 5px 5px 20px #888888; ">
+			               	   	   	          
+
+			               	   	   	  
+			               	   	   	     <ul class="co-small">
+			               	   	   	        <li><a href="#" style="text-decoration: none; color: #569485;"><i class="fa fa-angle-double-up "  aria-hidden="true"></i>Support</a></li>
+		               	   	   	            <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 10px;"><i class="glyphicon glyphicon-comment" ></i><span></span> Comments</a></li>
+		               	   	   	            <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 10px;"><i class="fa fa-share-alt-square fa-1x"  aria-hidden="true"></i><span> </span> Share</a></li>
+			               	   	   	     	
+			               	   	   	     </ul>
+			               	   	   	     
+			               	   	   	   
+
+			               	   
+			               	   	   	 </div>
+			               	   	   	
+		               	   	   
+
+
+		               	   	   </div>
+                    		
+                    	</div>
+                    </div>
+                  	
+                  </form>	
+               </div>
+            	
+            </div>
+              	 <div class="row">
+               <div class="col-md-12">
+                  <form action="#" method="post" role="form" enctype="multipart/form-data" class="facebook-share-box" style=" box-shadow: 2px 2px 10px #888888;" >
+                    <div class="share">
+                    	<div class="panel panel-default">
+                    	    	   <div class="panel-heading" style="border-bottom: none; background: white; height: 30px;">
+                    	    	       <div class="row">
+                    	    	       	   <div class="col-md-12">
+                    	    	       	   	   <div class="col-md-2">
+                    	    	       	   	   	   <a href="#"><img src="images/logo.png" style="height: 30px; width: 30px; "></a>
+                    	    	       	   	   </div>
+                    	    	       	   	   <div class="col-md-8" style="margin-top: -2px;">
+                    	    	       	   	   	   <a href="#" h5>Towfiqul Islam</h5></a>
+                    	    	       	   	   	   <a href="#"><p style="font-size: 10px">Mirpur,Dhaka</p> </a>
+                    	    	       	   	   </div>
+                    	    	       	   </div>
+                    	    	       </div>
+
+		               	  
+		               	   	      </div>
+		               	   	      <div class="panel-body">
+		               	   	       <div>
+		               	   	       	  <p>A litle description about the post. </p>
+		               	   	       </div>
+		               	   	       <div>
+		               	   	       	  <img src="images/pic2.png" style="height: 100px; width: 150px; box-shadow: 2px 2px 20px #888888; ">
+		               	   	       </div>
+
+		               	   	   	
+		               	   	   </div>
+		               	   	   <div class="panel panel-footer" style="border: none; background-color: white;">
+                               
+			               	   	   	<div  style="background: #eee; box-shadow: 5px 5px 20px #888888; ">
+			               	   	   	          
+
+			               	   	   	  
+			               	   	   	     <ul class="co-small">
+			               	   	   	        <li><a href="#" style="text-decoration: none; color: #569485;"><i class="fa fa-angle-double-up "  aria-hidden="true"></i>Support</a></li>
+		               	   	   	            <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 10px;"><i class="glyphicon glyphicon-comment" ></i><span></span> Comments</a></li>
+		               	   	   	            <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 10px;"><i class="fa fa-share-alt-square fa-1x"  aria-hidden="true"></i><span> </span> Share</a></li>
+			               	   	   	     	
+			               	   	   	     </ul>
+									</div>
+		               	   	   </div>
+						</div>
+                    </div>
+                  	
+                  </form>	
+               </div>
+            	
+            </div>
+              	 <div class="row">
+               <div class="col-md-12">
+                  <form action="#" method="post" role="form" enctype="multipart/form-data" class="facebook-share-box" style=" box-shadow: 2px 2px 10px #888888;" >
+                    <div class="share">
+                    	<div class="panel panel-default">
+                    	    	   <div class="panel-heading" style="border-bottom: none; background: white; height: 30px;">
+                    	    	       <div class="row">
+                    	    	       	   <div class="col-md-12">
+                    	    	       	   	   <div class="col-md-2">
+                    	    	       	   	   	   <a href="#"><img src="images/logo.png" style="height: 30px; width: 30px; "></a>
+                    	    	       	   	   </div>
+                    	    	       	   	   <div class="col-md-8" style="margin-top: -2px;">
+                    	    	       	   	   	   <a href="#" h5>Towfiqul Islam</h5></a>
+                    	    	       	   	   	   <a href="#"><p style="font-size: 10px">Mirpur,Dhaka</p> </a>
+                    	    	       	   	   </div>
+                    	    	       	   </div>
+                    	    	       </div>
+
+		               	  
+		               	   	      </div>
+		               	   	      <div class="panel-body">
+		               	   	       <div>
+		               	   	       	  <p>A litle description about the post. </p>
+		               	   	       </div>
+		               	   	       <div>
+		               	   	       	  <img src="images/pic3.png" style="height: 100px; width: 150px; box-shadow: 2px 2px 20px #888888; ">
+									   <img src="images/pic4.png" style="height: 100px; width: 150px; box-shadow: 2px 2px 20px #888888; ">
+		               	   	       </div>
+
+		               	   	   	
+		               	   	   </div>
+		               	   	   <div class="panel panel-footer" style="border: none; background-color: white;">
+                               
+			               	   	   	<div  style="background: #eee; box-shadow: 5px 5px 20px #888888; ">
+			               	   	   	          
+
+			               	   	   	  
+			               	   	   	     <ul class="co-small">
+			               	   	   	        <li><a href="#" style="text-decoration: none; color: #569485;"><i class="fa fa-angle-double-up "  aria-hidden="true"></i>Support</a></li>
+		               	   	   	            <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 10px;"><i class="glyphicon glyphicon-comment" ></i><span></span> Comments</a></li>
+		               	   	   	            <li><a href="#" style="text-decoration: none; color: #569485; padding-left: 10px;"><i class="fa fa-share-alt-square fa-1x"  aria-hidden="true"></i><span> </span> Share</a></li>
+			               	   	   	     	
+			               	   	   	     </ul>
+			               	   	   	     
+			               	   	   	   
+
+			               	   
+			               	   	   	 </div>
+			               	   	   	
+		               	   	   
+
+
+		               	   	   </div>
+                    		
+                    	</div>
+                    </div>
+                  	
+                  </form>	
+               </div>
+            	
+            </div>
+
+        </div>
+     </div>
+     
+  	
+  </div>
+
+
+</body>
+</html>
